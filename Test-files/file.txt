@@ -1,0 +1,29 @@
+Step 1: Reading the data
+
+Machine learning models and Deep learning networks are usually trained using large volumes
+
+CSV format. This data needs to be read before
+
+of data called datasets, often stored
+
+procession. An example of how this is done is as shown below:
+
+code:
+
+Import pandas
+
+my_data = pandas.read_csv(‘ENTER_THE_PATH_TO_THE_DATASET_FILE.csv’)
+
+Step 2: Cleaning the data
+
+After the data has been read and stored in a variable (my_data) as seen above, we have to
+
+ensure that no rows or column spaces are empty. We can simply p
+
+out ‘my_data’ and see
+
+how it looks. But since this data may be too much, we may not be able to detect the empty
+
+spaces with our eyes. We have to use pandas. Spaces are generally denoted as NaN, so we can
+
+do the following:
